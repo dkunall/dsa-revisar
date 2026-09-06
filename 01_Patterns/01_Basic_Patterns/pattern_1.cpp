@@ -1,26 +1,22 @@
-// Problem:
-// Approach: brute -> better -> optimal
-// Time:  Space:
-
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 void print(int n)
 {
-    for(int i =0;i<n;i++)
-        {
-            for(int j=0;j<n;j++)
-                {
-                    cout<<"*";
-                }
-        }
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++)
+            {
+                cout<<"*";
+            }
+        cout<<endl;
+    }
     return;
 }
 
-
-int main() {
+int main()
+{
     int n;
     cin>>n;
-    print(n)
+    print(n);
     return 0;
 }
