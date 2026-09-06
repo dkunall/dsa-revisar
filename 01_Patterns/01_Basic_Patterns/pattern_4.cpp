@@ -7,7 +7,6 @@
 333
 4444
 55555
-1
 
 #include<bits/stdc++.h>
 using namespace std;
