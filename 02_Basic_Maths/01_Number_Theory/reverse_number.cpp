@@ -1,10 +1,11 @@
-// Problem:
-// Approach: brute -> better -> optimal
-// Time:  Space:
+int reverseNumber(int n) {
+    int rev = 0;
 
-#include <bits/stdc++.h>
-using namespace std;
+    while (n > 0) {
+        int digit = n % 10;
+        rev = rev * 10 + digit;
+        n /= 10;
+    }
 
-int main() {
-    return 0;
+    return rev;
 }
